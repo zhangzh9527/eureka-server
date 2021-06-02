@@ -10,6 +10,5 @@ eureka:
   server:
     enable-self-preservation: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:1111/eureka/
+      defaultZone: http://localhost:1111/eureka/
     eviction-interval-timer-in-ms:instance: 4000
-    hostname: localhost
