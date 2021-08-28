@@ -1,5 +1,5 @@
 server:
-  port: 1111
+  port: 8761
 spring:
   application:
     name: eureka-server
@@ -10,5 +10,5 @@ eureka:
   server:
     enable-self-preservation: false
     serviceUrl:
-      defaultZone: http://localhost:1111/eureka/
+      defaultZone: http://localhost:8761/eureka/
     eviction-interval-timer-in-ms:instance: 4000
