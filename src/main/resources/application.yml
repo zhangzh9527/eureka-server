@@ -7,8 +7,8 @@ eureka:
   client:
     fetch-registry: false
     register-with-eureka: false
-  server:
-    enable-self-preservation: false
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-    eviction-interval-timer-in-ms:instance: 4000
+  server:
+    enable-self-preservation: false
+    useReadOnlyResponseCache: false
